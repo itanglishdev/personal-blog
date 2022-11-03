@@ -5,7 +5,7 @@ import GitHub from '../sub-components/GitHub';
 
 function Footer() {
     return (  
-        <div>
+        <div  className='flex flex-row mt-[20px]'>
             <Twitter/>
             <Facebook/>
             <InstaGram/>

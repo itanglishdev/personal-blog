@@ -1,19 +1,18 @@
-import './App.css';
+import './App.scss';
+import './index.css'
 import Footer from './components/Footer';
 import Interests from './components/Interests';
-// import AboutMe from './components/AboutMe';
 import Info from './components/Info';
-import Button from '@mui/material/Button'
+import Buttons from './components/Buttons';
 
 function App() {
-  return (<div>
-   
-    <Info/>
-    <Button variant="contained">Linkedin</Button>
-    <Button variant="outlined">E-mail</Button>
-    {/* <AboutMe/> */}
-    <Interests/>
-    <Footer/>
+  return (
+    <div className='flex  w-[400px] flex-col justify-center items-center rounded-md content-around m-auto bg-zinc-900 text-white p-[40px] mt-[20px] h-[600px] '>
+    
+      <Info/>
+      <Buttons/>
+      <Interests/>
+      <Footer/>
     </div>
   );
 }
