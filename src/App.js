@@ -7,7 +7,7 @@ import Buttons from './components/Buttons';
 
 function App() {
   return (
-    <div className='flex  w-[400px] flex-col justify-center items-center rounded-md content-around m-auto bg-zinc-900 text-white p-[40px] mt-[20px] h-[600px] '>
+    <div className='flex  w-[400px] flex-col  items-center rounded-md  m-auto bg-zinc-900 text-white p-[20px]  h-[750px] '>
     
       <Info/>
       <Buttons/>

@@ -2,7 +2,7 @@ import {AiFillGithub} from 'react-icons/ai'
 
 const GitHub = () => {
     return ( 
-        <AiFillGithub/>
+        <AiFillGithub  size={40}/>
      );
 }
  

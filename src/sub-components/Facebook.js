@@ -1,7 +1,7 @@
 import {AiFillFacebook} from 'react-icons/ai'
 function FaceBook() {
     return ( 
-        <AiFillFacebook/>  
+        <AiFillFacebook  size={40}/>  
      );
 }
 

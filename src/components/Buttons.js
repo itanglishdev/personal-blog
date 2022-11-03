@@ -2,9 +2,9 @@ import Button from '@mui/material/Button'
 
 function Buttons() {
     return (  
-        <div>
-            <Button variant="contained">Linkedin</Button>
-            <Button variant="outlined">E-mail</Button>
+        <div className='mt-[20px] flex gap-10' >
+            <Button size='medium' variant="contained">Linkedin</Button>
+            <Button size='large' >E-mail</Button>
         </div>
     );
 }

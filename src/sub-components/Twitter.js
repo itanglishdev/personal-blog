@@ -2,7 +2,7 @@ import { FaTwitterSquare } from 'react-icons/fa'
 
 function Twitter() {
     return ( 
-        <FaTwitterSquare/>
+        <FaTwitterSquare size={40}/>
         // <FaTwitter/>
      );
 }
