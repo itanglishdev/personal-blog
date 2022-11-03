@@ -1,6 +1,9 @@
+import { FaTwitterSquare } from 'react-icons/fa'
+
 function Twitter() {
     return ( 
-        <div>Twitter Icon</div>
+        <FaTwitterSquare/>
+        // <FaTwitter/>
      );
 }
 

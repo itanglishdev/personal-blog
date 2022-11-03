@@ -1,6 +1,8 @@
+import {AiFillInstagram} from 'react-icons/ai'
+
 function InstaGram() {
     return ( 
-        <div>Instagram Logo</div>
+        <AiFillInstagram/>
      );
 }
 

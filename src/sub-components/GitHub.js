@@ -1,6 +1,8 @@
+import {AiFillGithub} from 'react-icons/ai'
+
 const GitHub = () => {
     return ( 
-        <div>GitHub Logo</div>
+        <AiFillGithub/>
      );
 }
  
